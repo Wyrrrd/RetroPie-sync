@@ -31,7 +31,7 @@ Connect to your RetroPie via SSH.
 
 ```
 mkdir /home/pi/RetroPie/saves
-find $directory -type f -name "*.srm" -or -name "*.sav" -or -name "*.state*" -exec mv {} /home/pi/RetroPie/saves/ \;
+find /home/pi/RetroPie/roms -type f -name "*.srm" -or -name "*.sav" -or -name "*.state*" -exec mv {} /home/pi/RetroPie/saves/ \;
 ```
 
 Then, in EmulationStation, open Retroarch Settings, go to "Settings" &#8594; "Directories" and set both "Savegames" and "Savestates" to `/home/pi/RetroPie/saves`.
