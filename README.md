@@ -34,8 +34,14 @@ mkdir /home/pi/RetroPie/saves
 find $directory -type f -name "*.srm" -or -name "*.sav" -or -name "*.state*" -exec mv {} /home/pi/RetroPie/saves/ \;
 ```
 
-Then, in EmulationStation, open Retroarch Settings, go to "Settings" #8594; "Directories" and set both "Savegames" and "Savestates" to `/home/pi/RetroPie/saves`.
-Go to "Settings" #8594; "Configuration", check "Save configuration on exit", then exit.
+Then, in EmulationStation, open Retroarch Settings, go to "Settings" &#8594; "Directories" and set both "Savegames" and "Savestates" to `/home/pi/RetroPie/saves`.
+Go to "Settings" &#8594; "Configuration", check "Save configuration on exit", then exit.
+
+#### Install RetroPie-sync
+```
+cd /home/pi
+git clone https://github.com/Wyrrrd/RetroPie-sync
+```
 
 #### Install autofs
 ```
