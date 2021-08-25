@@ -79,4 +79,4 @@ Add the following line to `/opt/retropie/configs/all/autostart.sh`, as first lin
 - [ ] EmulationStation restart is hacky. If a game is started, and quit after EmulationStation restart, Retropie doesn't find it's way back to EmulationStation.
 
 ## Credits
-The sound `done.wav` is "[Laser Cannon](https://soundbible.com/1771-Laser-Cannon.html)" by Mike Koenig, which is licensed under [Attribution 3.0](https://creativecommons.org/licenses/by/3.0/). Though the file was renamed, the sound within was not modified.
+The sound `done.wav` is "[Laser Cannon](https://soundbible.com/1771-Laser-Cannon.html)" by Mike Koenig, which is licensed under [Attribution 3.0](https://creativecommons.org/licenses/by/3.0/legalcode). Though the file was renamed, the sound within was not modified.
